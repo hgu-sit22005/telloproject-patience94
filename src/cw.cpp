@@ -4,14 +4,14 @@
 
 CW::CW()
 {
-	command = new char[strlen("CW")+1];
-	strcpy(command, "CW");
+	command = new char[strlen("cw")+1];
+	strcpy(command, "cw");
 }
 
 CW::CW(int _value)
 {
 	std::stringstream sstream;
-	sstream << " CW " << _value;
+	sstream << " cw " << _value;
 
 	command = new char[strlen(sstream.str().c_str())+1];
 	strcpy(command, sstream.str().c_str());

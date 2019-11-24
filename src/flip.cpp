@@ -20,11 +20,11 @@ Flip::Flip(int _value)
 			sstream << "flip r";
 			break;
 		case 2 :
-			sstream << "filp f";
+			sstream << "flip f";
 			break;
 		case 3 :
 		default:
-			sstream << "filp b";
+			sstream << "flip b";
 			break;
 	}
 
